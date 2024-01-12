@@ -1,4 +1,4 @@
-# <%- name %>
+# figma-supabase-js
 
 ## Quickstart
 
@@ -6,8 +6,8 @@ This plugin was created using [Plugma](https://github.com/gavinmcfarland/plugma)
 
 ### Requirements
 
-- [Node.js](https://nodejs.org/en)
-- [Figma desktop app](https://www.figma.com/downloads/)
+-   [Node.js](https://nodejs.org/en)
+-   [Figma desktop app](https://www.figma.com/downloads/)
 
 ### Develop
 
