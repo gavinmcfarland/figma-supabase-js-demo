@@ -20,6 +20,15 @@ npm run dev
 
 Open the Figma desktop app, import the plugin and run.
 
+### Env variables
+
+Create a `.env` file in the root of the project with the following variables:
+
+```js
+VITE_PUBLIC_SUPABASE_API_URL = ''
+VITE_PUBLIC_SUPABASE_ANON_KEY = ''
+```
+
 ### Import the plugin
 
 1. Open the Figma desktop app and open a file

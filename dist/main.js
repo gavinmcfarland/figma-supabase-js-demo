@@ -1,21 +1,3 @@
-// ../plugma/packages/plugma/frameworks/common/main/saveFigmaStyles.ts
-function saveFigmaStyles() {
-  if (true) {
-    figma.ui.on("message", async (msg) => {
-      if (msg.event === "save-figma-stylesheet") {
-        figma.clientStorage.setAsync("figma-stylesheet", msg.styles);
-      }
-      if (msg.event === "get-figma-stylesheet") {
-        let styles = await figma.clientStorage.getAsync("figma-stylesheet");
-        figma.ui.postMessage({
-          event: "pass-figma-stylesheet",
-          styles
-        });
-      }
-    });
-  }
-}
-
 // src/main.ts
 console.clear();
 function main_default() {
@@ -45,6 +27,5 @@ function main_default() {
   };
 }
 
-// ../../../../private/var/folders/wr/55c039r173z6tm1c23b89d7r0000gn/T/temp_1705340979631.js
-saveFigmaStyles();
+// ../../../../private/var/folders/wr/55c039r173z6tm1c23b89d7r0000gn/T/temp_1705341615984.js
 main_default();
