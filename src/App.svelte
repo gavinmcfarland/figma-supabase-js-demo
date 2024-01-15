@@ -2,13 +2,15 @@
 	import { supabase } from './supabase'
 	import { onMount } from 'svelte'
 
+	let _data: any
+
 	onMount(async () => {
 		const { data } = await supabase.auth.getSession()
-		console.log(data)
+		_data = data
 	})
 </script>
 
-<main>Hello World</main>
+<main>Session: {@html _data?.session}</main>
 
 <style>
 </style>
