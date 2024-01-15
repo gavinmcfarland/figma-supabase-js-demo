@@ -27,6 +27,6 @@
 	},
 	"dependencies": {
 		"@supabase/supabase-js": "^2.39.3",
-		"plugma": "^0.0.3"
+		"plugma": "^0.0.6"
 	}
 }

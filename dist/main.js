@@ -45,6 +45,6 @@ function main_default() {
   };
 }
 
-// ../../../../private/var/folders/wr/55c039r173z6tm1c23b89d7r0000gn/T/temp_1705339826126.js
+// ../../../../private/var/folders/wr/55c039r173z6tm1c23b89d7r0000gn/T/temp_1705340979631.js
 saveFigmaStyles();
 main_default();
